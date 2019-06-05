@@ -1,0 +1,187 @@
+/**
+ * Setup
+ */
+
+/*
+ * Header
+ */
+
+.site-header {
+  // background-image: url('/assets/img/cocoa-glitter-splash.png');
+  background-image: url('/assets/img/glitter-dust.png');
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.background-wrapper {
+  background-color: rgba(theme-color('brand-dark'), 0.4);
+}
+
+.sub-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: $font-family-base;
+  font-size: 16px;
+}
+
+// Navigation
+
+.navbar-brand {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+}
+
+.navbar-nav-main,
+.navbar-nav-secondary {
+  border-top: 1px solid rgba(theme-color('light'), .7);
+  border-bottom: 1px solid rgba(theme-color('light'), .7);
+  background-color: rgba(theme-color('brand-dark'), 0.7);
+
+  &:hover {
+    border-top: 1px solid theme-color('light');
+    border-bottom: 1px solid theme-color('light');
+  }
+}
+
+.nav-link {
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+}
+
+/*
+ * Main
+ */
+
+.jumbotron {
+  border-top: 2px solid theme-color('light');
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+.page-content {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*
+ * Page
+ */
+
+.page-header {
+  background-image: url("/assets/img/coffee.png");
+  background-position: 0px -16px;
+  background-size: 21em;
+  background-repeat: no-repeat;
+  overflow: visible;
+  margin-left: -30px;
+  padding-left: 30px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.page-title {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.page-decoration-img {
+  margin-top: 6em;
+  margin-right: auto;
+  margin-bottom: 6em;
+  margin-left: auto;
+  display: block;
+  max-width: 28em;
+}
+
+/*
+ * Gallery
+ */
+
+.masonry-grid {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.masonry-grid-item {
+  float: left;
+  width: 200px;
+  margin-bottom: 10px;
+  // height: 60px;
+}
+
+.masonry-grid-item-width2 {
+  width: 280px;
+}
+
+.masonry-grid-item-width3 {
+  width: 320px;
+}
+
+.masonry-grid-item-height2 {
+  height: 140px;
+}
+
+.masonry-grid-item-height3 {
+  height: 220px;
+}
+
+.masonry-grid-item-height4 {
+  height: 323px;
+}
+
+.masonry-grid-item-height5 {
+  height: 260px;
+}
+
+.masonry-grid-item-height6 {
+  height: 265px;
+}
+
+/*
+ * Footer
+ */
+
+.footer-image {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Pages
+ */
+
+/*
+ * About
+ */
+
+.about-decoration-img {
+  position: relative;
+  z-index: 2;
+  margin-top: -5em;
+  margin-left: -4em;
+  width: 130% !important;
+}
+
+/*
+ * Contact
+ */
+
+#contact-form {
+  padding: 1em;
+}
