@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds":[
+      { "src": "./public/*.php", "use": "@now/php@canary", "config": { "maxLambdaSize": "15mb" } },
+      { "src": "./public/assets/**", "use": "@now/static" },
+      { "src": "./public/webfonts/**", "use": "@now/static" }
+  ],
+  "routes": [
+    {"src": "/(.*)", "dest": "public/$1"}
+  ]
+}

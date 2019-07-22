@@ -17,7 +17,8 @@
     "browser-sync-webpack-plugin": "^1.2.0",
     "cross-env": "^5.0.5",
     "laravel-mix": "^1.4.2",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "prettier": "^1.17.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",

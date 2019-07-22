@@ -3,17 +3,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<a class="text-light mr-2" href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-					<a class="text-light mr-2" href="#" aria-label="Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-					<a class="text-light mr-2" href="#" aria-label="Pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+					<a class="text-light mr-2" href="https://www.instagram.com/dollsfactory_makeup/" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a class="text-light mr-2" href="https://www.facebook.com/dollsfactorymakeup/" aria-label="Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+					<a class="text-light mr-2" href="https://www.pinterest.com/dollsfactory_makeup/" aria-label="Pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
 
 					<hr>
 
 					<ul class="list-unstyled">
 						<li><a href="/about.php">About</a></li>
-						<li><a href="/gallery.php">Gallery</a></li>
-						<!-- <li><a href="#">FAQ</a></li> -->
-						<!-- <li><a href="#">Privacy Policy</a></li> -->
+						<li><a href="https://www.instagram.com/dollsfactory_makeup">Gallery</a></li>
 						<li><a href="/contact.php">Contact</a></li>
 					</ul>
 					
